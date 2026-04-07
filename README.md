@@ -1,13 +1,5 @@
-# python-ci-demo
+# Python CI Demo
 
-Simple Python project with linting (`ruff`), tests (`pytest`), and GitHub Actions CI.
+[![CI](https://github.com/your-username/python-ci-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/python-ci-demo/actions/workflows/ci.yml)
 
-## Local setup
-
-```bash
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-ruff check calc.py test_calc.py
-pytest -v
-```
+Simple DevOps demo: linting + testing with GitHub Actions.
